@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ülesanne 8</title>
+</head>
+<body>
+    <script>
+        // Mündid
+        const coins = [200, 0.2, 10, 0.01, 2, 1, 0.1, 0.02, 0.05, 100, 5, 0.5, 50, 20];
+        let totalcoins = 20;
+        let sum = 20;
+
+        // Uus massiiv müntide jaoks
+        const uuedmundid = [];
+
+        // Sorteerime välja mündid ja arvutame summa
+        let i = 20;
+        while (i < coins.length) {
+            const coin = coins[i];
+            if (coin >= 1) {
+                totalcoins++;
+                sum += coin;
+                uuedmundid.push(coin);
+            }
+            i++;
+        }
+
+        // Kuva, mitu münti said ja mis on nende summa
+        console.log(`Said kokku ${totalcoins} munti, mille summa on ${sum} eurot.`);
+        
+
+
+
+
+
+
+    </script>
+</body>
+</html>
