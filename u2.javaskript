@@ -1,12 +1,3 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Ülesanne 2</title>
-</head>
-<body>
-    <script>
         // Kellaaeg
         let tunnid = 2;
         let minutid = 38;
@@ -48,12 +39,3 @@
         let kasutajanimi = email.substring(0, email.indexOf('@'));
         let ipaadress = andmed[5];
         console.log(ipaadress, kasutajanimi);
-
-
-
-
-
-
-    </script>
-</body>
-</html>
