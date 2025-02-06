@@ -1,12 +1,3 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Ülesanne 4</title>
-</head>
-<body>
-    <script>
         // Paranda massiivi ja kuvage selle elemendid
         let nadalapaevad = ["Esmaspäev", "Teisipäev", "Kolmapäev", "Neljapäev", "Reede"];
         console.log("Korrigeeritud massiivi elemendid:", nadalapaevad);
@@ -54,11 +45,3 @@
         let parimtulemus = Math.max(...sportlane[2]);
         console.log("Sportlase", nimi, "parim tulemus on", parimtulemus);
         });
-
-
-
-
-
-    </script>
-</body>
-</html>
