@@ -1,12 +1,3 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Ülesanne 9</title>
-</head>
-<body>
-    <script>
         // Klassikaline funktsioon nime väljastamiseks
         function klassikaline() {
             console.log("Dajana Mähdi");
@@ -55,12 +46,3 @@
         console.log((1, 2, 3, 4, 5));
         console.log(salajanesonum("Tsau Mario!")); 
         console.log(leiaunikaalsednimed(["Kati", "Mati", "Kati", "Mari", "Mati", "Jüri"]));
-
-
-
-
-
-
-    </script>
-</body>
-</html>
